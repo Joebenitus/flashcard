@@ -1,6 +1,11 @@
 $ (document).ready(function(){
-  $("h3").click(function() {
-    $("p").show();
-    $("h3").hide();
+  $(".jsCard").click(function() {
+    $(".jsCard p").toggle();
+    $(".jsCard h3").toggle();
+  });
+
+  $(".operatorCard").click(function(){
+    $(".operatorCard p").toggle();
+    $(".operatorCard h3").toggle();
   });
 });
